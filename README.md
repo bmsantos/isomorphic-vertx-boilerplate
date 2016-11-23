@@ -6,19 +6,26 @@ Isomorphic React / Redux / Vertx app boilerplate with node.js
 
 Requires npm installed
 
+Full build - Installs node dependencies and builds app 
+
 ```bash
-./build-node.sh
+mvn package -Dfull
+```
+
+App build - just builds app 
+
+```bash
 mvn package
 ```
 
 ### Run frontend node server
 
 ```bash
-npm --prefix ./src/main/node run start
+./run-node.sh
 ```
 
 ### Run deployment Vert.x micro-service
 
 ```bash
-java -jar target/isomorphic-vertx-boilerplate-fat.jar
+./run-vertx.sh
 ```

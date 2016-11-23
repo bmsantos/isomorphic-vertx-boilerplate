@@ -13,3 +13,7 @@ bin/
 dependency-reduced-pom.xml
 node_modules/
 bundle.js*
+etc/
+node/
+src/main/node/dist/
+src/main/node/etc/
