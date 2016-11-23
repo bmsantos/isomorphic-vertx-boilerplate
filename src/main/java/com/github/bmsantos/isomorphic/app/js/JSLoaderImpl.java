@@ -7,7 +7,7 @@ import javax.script.ScriptException;
 
 public class JSLoaderImpl implements JSLoader {
 
-  private final ScriptEngineManager manager = new ScriptEngineManager();
+  private static final ScriptEngineManager manager = new ScriptEngineManager();
   private final ScriptEngine engine = manager.getEngineByName("nashorn");
 
   @Override
