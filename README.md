@@ -29,3 +29,5 @@ mvn package
 ```bash
 ./run-vertx.sh
 ```
+
+This template was based on the work of [Arran White](https://github.com/arrwhidev/nashorn-webpack-react-redux-boilerplate). 
